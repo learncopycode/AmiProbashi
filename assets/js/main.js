@@ -209,8 +209,50 @@
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
+
       type: 'bullets',
       clickable: true
+    },
+    navigation: {
+      nextEl: '#next1',
+      prevEl: '#prev1',
+    }
+  });
+
+  new Swiper('.testimonials-slider2', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '#next2',
+      prevEl: '#prev2',
+    }
+  });
+  new Swiper('.testimonials-slider3', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '#next3',
+      prevEl: '#prev3',
     }
   });
 

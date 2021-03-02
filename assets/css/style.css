@@ -8,8 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
   color: #444444;
 }
 
@@ -24,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -89,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
-.modal{z-index:100000}
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -171,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.fixed-top {
-  height: 70px;
+  height: auto;
 }
 
 #header .logo {
@@ -181,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
 }
 
 #header .logo a {
@@ -193,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 .scrolled-offset {
@@ -344,25 +346,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+
   .mobile-nav-toggle {
     display: block;
   }
   .navbar ul {
     display: none;
   }
-}
 
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(9, 9, 9, 0.9);
-  transition: 0.3s;
-  z-index: 999;
+  .navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* background: rgba(9, 9, 9, 0.9); */
+    transition: 0.3s;
+    z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -371,18 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
+
 
 .navbar-mobile a {
   padding: 10px 20px;
@@ -441,17 +431,29 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero, body {
   width: 100%;
-  height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
-  background-size: cover;
+  height: 80vh;
+  background: url("../../a3/bak2.jpg");
+  background-position: top left;
+  background-size: auto;
+  background-repeat: repeat;
   position: relative;
+}
+#herochil {
+  width: 100%;
+  height: 100%;
+  background: url("../../a3/A.jpg");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  mix-blend-mode: multiply;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -469,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #222222;
-  font-family: "Poppins", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
 }
 
 #hero h1 span {
@@ -561,12 +563,12 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+
 }
 
 .section-title {
@@ -671,8 +673,15 @@ section {
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+
   z-index: 1;
+border-radius: 0px 20px 20px 20px!important;
+
+
+
+
+
+ 
 }
 
 .featured-services .icon-box::before {
@@ -685,6 +694,8 @@ section {
   top: 100%;
   transition: all 0.3s;
   z-index: -1;
+
+
 }
 
 .featured-services .icon-box:hover::before {
@@ -790,7 +801,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
   color: #222222;
 }
 
@@ -854,7 +865,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
   font-size: 14px;
 }
 
@@ -892,6 +903,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius: 0 20px 20px 20px!important;
 }
 
 .services .icon-box .icon {
@@ -1319,7 +1331,7 @@ section {
   font-size: 36px;
   color: #106eea;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1375,7 +1387,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto Condensed", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
