@@ -1,0 +1,817 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+html,body{
+margin:0;
+}
+
+  .textAlign{
+          text-align: right;
+         }
+
+       .textAlignLeft{
+          text-align: left;
+         }
+.navModified{
+  height: 70px;
+}
+ .fonts{
+       font-family: 'Raleway' !important;
+}
+
+.feature__description{
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+.feature_des{
+   padding-left: 10px; 
+  padding-right: 10px;
+}
+
+.feature_btn{
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+}
+ .doorbellLiving{
+  
+  font-size: 22px;
+  padding-top: 20px;
+  
+}
+
+.logoPosition{
+  margin-left: 130px;
+}
+
+.supportPosition{
+  margin-right: 130px;
+  padding-top: 22px;
+  color: #1665c1 !important;
+  font-size: 18px;
+}
+
+.productPosition{
+ /*  margin-right: 130px; */
+  padding-top: 22px;
+  color: #1665c1 !important;
+  font-size: 18px;
+  padding-right: 10px;
+
+}
+.buy{
+  margin-right: 20px !important;
+}
+.fill {
+  position: relative;
+  
+  border-radius: 40px;
+  
+  background-color: #fdb515;
+  height: 50px;
+  width: 200px;
+ 
+   margin-top: 10px; 
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #1665c1;
+  border: none !important;
+  
+  z-index: 1;
+  cursor: pointer;
+  outline: 0;
+
+}
+
+.bottomMenu{
+  color: #616e76;
+}
+
+.headerText {
+    font-size: 55px !important;
+    color: #2c3e50 !important;
+  }
+
+.bodyText{
+     color: #738089;
+   
+    
+  }
+
+.seemoImg{
+margin-top: 75px;
+}
+.doorbell{
+/*   margin-top: 130px;
+   */  font-size: 45px;
+}
+.doorBell{
+  font-size: 50px;
+}
+
+.doorbellLiving{
+  
+  font-size: 30px !important;
+  padding-top: 20px;
+  
+}
+
+.hotline{
+  color: #fdb414;
+  padding-bottom: 20px;
+  font-size: 23px;
+  padding-top: 20px;
+
+}
+
+.hotlineNo{
+  color: #fdb414 !important;
+  font-family: arial;
+  font-size: 20px;  
+}
+
+.footerIcons{
+  background-color: #222534;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+.copyrightText{
+  text-align: center;
+  color: #616e76; 
+  padding-top: 20px; 
+  font-size: 18px;
+}
+
+.section-bg-cover-image {
+      background-repeat: no-repeat; 
+      height: 100%;      
+      width: 100%;
+        }
+
+  
+
+@media only screen and (min-width: 1750px) {
+
+  .divBottom{
+    /*margin-bottom: -39px;*/
+  height: 100vh;
+    overflow: hidden;
+  }
+ .section-primary-message img{
+
+  float: left;
+/*   margin-top: 210px; 
+   */
+      margin-top: 250px; 
+     margin-left: 40px;
+}
+
+.intelligentDiv{
+  padding-top:5px !important; 
+  padding-bottom: 15px !important;
+}
+.section-primary-message, .section-primary-image ,.section-secondary-image{
+     height: 100vh;
+     width: 100%; 
+   }
+
+.section-primary-message-header{
+   
+    letter-spacing: 1.5px;
+   
+    margin-left: 40px;
+    padding-top: 15px ;
+  
+}
+
+.section-primary-message-description{
+  
+    letter-spacing: 1.5px;
+  
+    padding-top: 10px !important;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-left: 40px;
+  
+    margin: 0;
+    
+}
+.doorbell{
+ /*  margin-top: 130px !important; */
+  font-size: 46px;
+}
+
+.doorbellLivingDiv {
+float: right  !important;
+}
+
+.intelligentDiv{
+   float: right;
+   font-size: 30px;
+   color: #888888 !important;
+}
+
+.btnDiv{
+    float: right !important;
+
+}
+.bodyTextDescription{
+ padding-left: 350px;
+ font-weight: bolder !important;
+ font-size: 17px;
+}
+
+.bodyTextRight{
+ padding-right: 350px;
+ font-weight: bolder !important;
+ font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 1750px) and (min-width: 1100px)  {
+ .section-primary-message img{
+
+  float: left;
+  margin-top: 200px; 
+  margin-left: 40px;
+}
+
+ .doorBellDiv{
+  float: right ;
+
+} 
+
+.doorbellLivingDiv {
+float: right  !important;
+}
+
+.intelligentDiv{
+  float: right;
+  font-size: 30px;
+  color: #888888;
+}
+
+.btnDiv{
+  float: right;
+}
+
+.headerText {
+    font-size: 40px !important;
+    color: #2c3e50 !important;
+  }
+.bodyTextRight{
+  font-weight: bolder;
+  padding-right: 230px;
+  padding-left: 40px;
+}
+.bodyText{
+     color: #738089;
+     font-size: 17px;
+     font-weight: bolder;
+     padding-left: 200px;
+  }
+
+.section-primary-message-header{
+   
+    letter-spacing: 1.5px;
+     
+    margin-left: 40px;
+  
+}
+
+.section-primary-message, .section-primary-image ,.section-secondary-image{
+     height: 100vh;
+     width: 100%; 
+   }
+
+
+
+
+.doorBell{
+  font-size: 48px;
+}
+
+.doorbellLiving{
+  
+  font-size: 30px !important;
+  padding-top: 20px;
+  
+}
+.section-primary-message-description{
+  
+    letter-spacing: 1.3px;
+  
+   /*  padding-top: 20px; */
+    line-height: 1.5;
+    font-size: 16px;
+
+    margin: 0;
+    
+}
+.divBottom{
+    /*margin-bottom: -39px;*/
+  height: 100vh;
+    overflow: hidden;
+  }
+
+
+}
+
+@media only screen and (max-width: 1750px) and (min-width: 1100px)  {
+  .doorbell{
+  
+  font-size: 37px !important;
+}
+.doorBell{
+  font-size: 37px !important;
+}
+.section-primary-message, .section-primary-image ,.section-secondary-image{
+     height: 100vh;
+     width: 100%; 
+   }
+.doorbellLiving{
+  
+  font-size: 30px ;
+  padding-top: 20px ;
+  
+}
+.intelligentDiv{
+/*   padding-top:20px !important; 
+   */  padding-bottom: 15px !important;
+  font-size:30px !important;
+}
+}
+@media only screen and (max-width: 1100px) and (min-width: 768px)  {
+ /* .section-primary-message img{
+
+  float: left;
+  margin-top: 220px; 
+  margin-left: 40px;
+}*/
+
+.intelligentDiv{
+  float: right;
+ }
+.bodyTextRight{
+  font-weight: bolder;
+  padding-right: 130px;
+  
+}
+.bodyText{
+     color: #738089;
+     font-size: 17px;
+     font-weight: bolder;
+     padding-left: 100px;
+  }
+
+.section-primary-message-header{
+   
+    letter-spacing: 1.5px;
+   
+    margin-left: 40px;
+  
+}
+
+
+.headerText{
+  font-size: 25px !important;
+}
+.doorbell{
+  margin-top: 360px;
+  font-size: 30px;
+}
+.doorBell{
+  font-size: 30px !important;
+}
+
+.doorbellLiving{
+  
+ font-size: 21px !important; 
+  padding-top: 20px !important;
+  
+  
+}
+.section-primary-message-description{
+  
+    letter-spacing: 1.3px;
+  
+   
+    line-height: 1.5;
+    font-size: 16px;
+
+    margin: 0;
+    
+}
+
+.seemoImg{margin-top: 250px !important;}
+.intelligentDiv{
+  padding-top:20px !important; 
+  padding-bottom: 15px !important;
+  font-size: 21px;
+}
+
+
+}
+
+@media only screen and (max-width: 1100px)  and (min-width: 768px) {
+  .intelligentDiv{
+  padding-top:20px !important; 
+  padding-bottom: 15px !important;
+  font-size: 21px;
+  color: #888888 !important;
+}
+  .section-bg-cover-image {
+            background-repeat: no-repeat; 
+                width: 100% !important;
+        }
+ 
+ .section-primary-message, .section-primary-image ,.section-secondary-image{
+ 
+  width: 100% !important; 
+ }
+.section-primary-message-header{
+  margin-left: 10px ;
+}
+.section-primary-message img{
+
+  float: left;
+  margin-top: 50px; 
+  margin-left: 0px;
+}
+
+.bodyTextRight{
+  padding-right: 70px;
+}
+ .headerText {
+    font-size: 25px !important;
+    color: #2c3e50 !important;
+  }
+  .spanNav{
+    display : none;
+  }
+  .divBottom{
+    margin-bottom: 0px !important;
+  }
+
+  #menu{
+    display: none;
+  }
+  .seemoImg{
+    margin-top: 150px;
+  }
+  .fill{
+    margin-top: 10px !important;
+  }
+
+  .bodyText{
+    padding-left: 40px !important;
+  }
+ .intelligentDiv, .doorbellLivingDiv , .doorBellDiv, .btnDiv{
+  float: right;
+
+
+ }
+}
+
+@media only screen and (max-width: 994px)  and (min-width: 768px) {
+  .doorbell{
+   margin-top: 280px !important;
+    font-size: 29px !important;
+  }
+    .doorBell {
+    font-size: 31px !important;
+}
+
+.seemoImg{
+  margin-top: 230px !important;
+}
+.section-primary-message img{
+
+  float: left;
+  margin-top: 3px; 
+  margin-left: 0px;
+}
+
+  }
+  @media only screen and (max-width: 850px)  and (min-width: 768px) {
+.rowSeven{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width: 767px) {
+
+.watchButton{
+  margin-top: -20px;
+}
+
+
+  .btnModified{
+    margin-top: -20px;
+    height: 40px;
+  }
+
+.feature__description{
+  padding-left: 20px; 
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+.feature_des{
+  padding-left: 20px; 
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+  .doorbellLiving{
+  
+ 
+  padding-top: 10px;
+  
+}
+
+.doorbell{
+  margin-top: 80px;
+ 
+}
+
+
+ .section-primary-message-header {
+    letter-spacing: 0px !important;
+    padding-top: 10px;
+  }
+  .headerText{
+    font-size: 25px !important;
+     letter-spacing: 0px !important;
+  }
+
+  .logoPosition{
+    margin-left: 10px;
+  }
+ 
+ 
+ .seemoImg{
+  margin-top: 10px;
+  text-align: center;
+
+}
+.bodyTextRight {
+  padding-right: 50px;
+}
+.bodyTextDescription{
+  padding-left: 50px;
+}
+.doorbell{
+ 
+  font-size: 28px;
+  text-align: center !important;
+
+}
+
+.doorBellDiv, .btnDiv{
+  text-align: center !important;
+}
+
+.doorBell{
+  font-size: 28px;
+}
+.doorbellText{
+  text-align: center !important;
+}
+
+
+.doorbellLiving{
+  text-align: center !important;
+  font-size: 21px !important;
+}
+
+.intelligentDiv{
+  padding-top:10px !important; 
+  padding-bottom: 15px !important;
+      text-align: center !important;
+      font-size: 21px;
+      color: #888888;
+}
+  .section-primary-message img{
+
+  float: left;
+  margin-top: 30px; 
+
+}
+
+.section-primary-message-header{
+
+    letter-spacing: 1.5px;
+}
+
+.section-primary-message-description{
+  
+    letter-spacing: 1.5px;
+   
+    padding-top: 20px;
+    line-height: 1.5;
+    padding-bottom: 80px;
+   
+
+    margin: 0;
+    
+}
+
+  
+  #triangle-left, #triangle-right{
+    display: none;
+}
+
+ 
+             #triangle-left_one{
+              display: none !important;
+              border-right: 50px solid transparent;
+             }
+             
+             .callTextHotline, .callTextHotlineNo{
+              font-size: 14px !important;
+             }
+             .textAlign{
+            text-align: justify;
+          
+             }
+             .textAlignLeft{
+               text-align: justify;
+             }
+
+             .navModified{
+              height: 70px;
+             }
+
+}
+
+/*Modal Center */
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 1100px) {
+  .doorbell{
+    padding-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+   
+  .modalBody{padding: 40px;
+       border-radius: 25px;
+  }
+
+}
+
+.callTextHotline, .callTextHotlineNo{
+    font-size: 20px !important;
+ }
+
+          
+
+/*Scroll Down */
+
+ .scroll-down {
+              width: 80px;
+              height: 80px;
+              position: absolute; 
+              bottom: 20px;
+              left: 0;
+              right: 0;
+              margin: auto;
+              z-index: 0; 
+           }
+
+      .main-top .scroll-down:before {
+            bottom: 20px;
+            width: 50px;
+            height: 50px;
+          }
+
+      .main-top .scroll-down:before, .main-top .scroll-down:after {
+              content: '';
+              display: block;
+              border-bottom: 2px solid #FF781E;
+              border-right: 2px solid #FF781E;
+              margin: auto;
+              position: absolute;
+              left: 0;
+              right: 0;
+              -webkit-transform: rotate(45deg);
+              -moz-transform: rotate(45deg);
+              -o-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+
+       .main-top .scroll-down:before {
+              -webkit-animation: scrollDown 0.5s infinite alternate;
+              -moz-animation: scrollDown 0.5s infinite alternate;
+              -o-animation: scrollDown 0.5s infinite alternate;
+              -ms-animation: scrollDown 0.5s infinite alternate;
+              animation: scrollDown 0.5s infinite alternate;
+            }
+
+        .main-top .scroll-down:after {
+              width: 30px;
+              height: 30px;
+              bottom: 30px;
+              -webkit-animation: scrollDown 0.5s infinite alternate;
+              -moz-animation: scrollDown 0.5s infinite alternate;
+              -o-animation: scrollDown 0.5s infinite alternate;
+              -ms-animation: scrollDown 0.5s infinite alternate;
+              animation: scrollDown 0.5s infinite alternate;
+
+            }
+
+        @keyframes scrollDown {
+              0% {
+                opacity: 1;
+                -webkit-transform: rotate(45deg) translate(0px);
+                -ms-transform: rotate(45deg) translate(0px);
+                transform: rotate(45deg) translate(0px);
+              }
+
+              100% {
+                opacity: 0.5;
+                -webkit-transform: rotate(45deg) translate(3px, 3px);
+                -ms-transform: rotate(45deg) translate(3px, 3px);
+                transform: rotate(45deg) translate(3px, 3px);
+              }
+            }
+
+        .scrollDown {
+              -webkit-animation-name: scrollDown;
+              animation-name: scrollDown;
+
+        }
+
+
+
+/*Graphics*/
+
+.right_art img {
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+         }
+
+
+        .left_art img{
+              
+                position: absolute;
+                bottom: 0px;
+                left: 0px; 
+                margin-left: 0px;
+          }          
+
+          .clear { clear: both; }
+
+/*Triangle*/
+
+
+          #triangle-left { 
+                width: 0; 
+                height: 0; 
+                border-top: 25px solid transparent; 
+                border-right: 50px solid #fff; 
+                border-bottom: 25px solid transparent; 
+              }
+
+              
+             #triangle-right { 
+                  width: 0; 
+                  height: 0; 
+                  border-top: 25px solid transparent;
+                  border-left: 50px solid #fff;
+                  border-bottom: 25px solid transparent;
+               }
+
+
+/*Hide Overlay */
+
+   @media only screen and (max-width: 1217px) {
+      .spanNav{
+         display : none;
+       }
+
+      }
+  @media only screen and (max-width: 480px) and (min-width: 320px) {
+    .product_feature{
+      margin-top: 150px;
+    }
+  }
+
+
