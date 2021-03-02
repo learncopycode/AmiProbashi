@@ -58,7 +58,7 @@
         a{
             font-family: 'SF Pro';
     
-            color: #88888c!important;
+            color: #B5B7D0!important;
             font-weight:600;
         }
     

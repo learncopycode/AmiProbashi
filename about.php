@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -14,6 +14,10 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
         <style>
+            html{
+
+                overflow-x:hidden;
+            }
             .grey2{
                 color:gray;
 
@@ -58,7 +62,7 @@
         a{
             font-family: 'SF Pro';
     
-            color: #88888c!important;
+            color: gray!important;
             font-weight:600;
         }
     
@@ -283,15 +287,14 @@
         border-radius:20px;
     display: block;
     position: absolute;
-    right: 54px;
+    right: 14px;
     margin-top: 100px;
 }
-.rightal{
+.rightal {
     position: absolute;
-    right: 60px;
+    right: 20px;
     padding-top: 50px;
 }
-
 .show2{display:block}
 .dropdown2{display:none}
 }
@@ -346,14 +349,14 @@ a.item1 {
 <span class="menu"><img class="rightal" src="https://img.icons8.com/android/24/000000/menu.png"/>
                  <div class="dropdown">
       <a href="https://www.amiprobashi.com/ami_probashi_web/login">Agencies Portal</a>
-      <a href="about.php">About</a>
+      <a href="#about">About</a>
       <a href="#contact-us">Contact</a>
       <a href="https://play.google.com/store/apps/details?id=com.thane.amiprobashi">Download</a>
     </div>
 </div>
 <div class="dropdown2">  
      <a class="item1" href="https://www.amiprobashi.com/ami_probashi_web/login">Agencies Portal</a>
-      <a href="about.php" class="item1">About</a>
+      <a href="#about" class="item1">About</a>
       <a href="#contact-us" class="item1">Contact</a>
       <a href="https://play.google.com/store/apps/details?id=com.thane.amiprobashi" class="item1 lastitem">Download</a>
     </div>
@@ -414,7 +417,7 @@ a.item1 {
             </div>
 
         
-            <div class=" martop "><!--About the app page-->
+            <div id="about" class=" martop "><!--About the app page-->
 
                 <div class="row"> <!--heading-->
                     <h1 class="secondh" style="text-align:center">About the app</h1>
